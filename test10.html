@@ -137,21 +137,23 @@
         </div>
 
         <div class="ui-content" data-role="content">
-        <h1 class="ui-title">로그인 폼</h1>
+        <h1 class="ui-title">회원가입 폼</h1>
         <div data-role="container">
             <form>
                 <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
                     <li class="ui-field-contain ui-li-static ui-body-inherit ui-first-child">
-                            <input type="text" name="id" id="id" value="" data-clear-btn="true" placeholder="ID 입력">
-                            <a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete"></a>
+                            <input type="text" name="id" id="id" placeholder="ID 입력">
+                            <button type="button" class="ui-btn ui-btn-inline">ID 체크</button>
                     </li>
                     <li class="ui-field-contain ui-li-static ui-body-inherit">
-                            <input type="text" name="pw" id="pw" value="" data-clear-btn="true" placeholder="PW 입력">
-                            <a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete"></a>
+                            <input type="text" name="pw" id="pw" placeholder="PW 입력">
                     </li>
+                    <li class="ui-field-contain ui-li-static ui-body-inherit">
+                        <input type="text" name="pw" id="pw" placeholder="PW 확인 입력">
+                </li>
                 </ul>
                 <div class="ui-btn-group">
-                    <button type="submit" class="ui-btn ui-btn-inline">로그인</button>
+                    <button type="submit" class="ui-btn ui-btn-inline">회원가입</button>
                     <button type="reset" class="ui-btn ui-btn-inline">취소</button>
                 </div>
             </form>
